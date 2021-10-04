@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mero Fantasy</title>
+    <link rel="stylesheet/less" type="text/css" href="./less/style.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"><img src="img/logo_splash.png" alt="" width="80px" height="80px"></div>
+            <nav>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">point system</a></li>
+                    <li><a href="#">more</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="sec-1" style="display: flex; justify-content: space-between; margin-top: 10px; max-width: 75%; margin:  auto;">
+            <div class="banner-text" style="font-size: 40px;font-weight: 700;font-family: open sans,sans-serif;margin-bottom: 15px;margin-top: -30px;color:white;">
+                <h2>नेपालकै पहिलो र ठुलो<br>Cricket Fantasy<br>Platform</h2>
+                <a href="#"><i class="fa fa-android" aria-hidden="true"></i> Download app</a><br>
+                <a href="#"><i class="fa fa-android" aria-hidden="true"></i> Alternative app</a>
+
+            </div>
+            <div class="img"><img src="img/mobileapk.png" alt="" width="262.5px" height="525px"></div>
+        </div>
+    </div>
+    <div class="sec-2">
+        <div class="sec-2-1" style="background-color: white;width: 300px;border-radius: 5px;box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);padding: 50px 30px;margin: 20px;">
+            <img src="img/download.png" alt="">
+            <p>1k+ Download</p>
+        </div>
+        <div class="sec-2-2" style="background-color: white;width: 300px;border-radius: 5px;box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);padding: 50px 30px;margin: 20px;">
+            <img src="img/mobile.png" alt="">
+            <p>Play For Mobile</p>
+        </div>
+        <div class="sec-2-3" style="background-color: white;width: 300px;border-radius: 5px;box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);padding: 50px 30px;margin: 20px;">
+            <img src="img/prizes.png" alt="">
+            <p>Exciting prices</p>
+        </div>
+        <div class="sec-2-4" style="background-color: white;width: 300px;border-radius: 5px;box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);padding: 50px 30px;margin: 20px;">
+            <img src="img/userfriendly.png" alt="">
+            <p>100% user friend Download</p>
+        </div>
+        <div class="sec-2-5" style="background-color: white;width: 300px;border-radius: 5px;box-shadow: 0 10px 30px 0 rgb(0 0 0 / 8%);padding: 50px 30px;margin: 20px;">
+            <img src="img/live-score.png" alt="">
+            <p>Live Score</p>
+        </div>
+    </div>
+    <div class="sec-3">
+        <div class="img">
+            <img src="img/mobileapk.png" alt="">
+        </div>
+        <div class="sec-3-text">
+            <h4>Download our App for <br>Exclusive Features</h4>
+            <ul>
+                <li>Invite your friends and get bonus Fantasy Coins.</li>
+                <li>Participate in silver, gold and diamond contests.</li>
+                <li>Win real money.</li>
+                <li>Play, enjoy and share your success. </li>
+            </ul>
+            <a href="#">Download Now</a>
+        </div>
+    </div>
+
+
+    <div class="sec-4">
+        <h1 style="text-align:center;">How to play</h1>
+        <ol>
+            <li><span>1.</span>
+                <p>Download app and sign in. </p>
+            </li>
+            <li><span>2.</span>
+                <p>Select a match.</p>
+            </li>
+            <li><span>3.</span>
+                <p>Create your fantastic team.</p>
+            </li>
+            <li><span>4.</span>
+                <p>Choose various contests.</p>
+            </li>
+        </ol>
+    </div>
+
+    <div class="faq">
+        <h1 style="text-align: center;">FAQS</h1>
+        <button class="accordion">What is Fantasy Sport</button>
+        <div class="panel">
+            <p>Fantasy sport is a game played online where participants or players assemble imaginary players and make a team. While teams are imaginary they compete according to the actual data and performance of real players in game. Participants use their
+                analytic skills in order to assemble the team and the palyer with top notch skill triumph over the game.</p>
+        </div>
+
+        <button class="accordion">How We can paricipate</button>
+        <div class="panel">
+            <p>You can: Download the app from the link given. Log into your account. Select the match and join the contest for free. Make your team and enjoy.</p>
+        </div>
+
+        <button class="accordion">Can we play for free</button>
+        <div class="panel">
+            <p>Various free and paid contests are available you can join the free contests too.</p>
+        </div>
+        <button class="accordion">Any Tips For Plaing</button>
+        <div class="panel">
+            <p>Use your analytics, research on players history repeats itself, and Be careful while choosing your team's Captain and Vice-captain.</p>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+    <footer>
+        <div class="foot-1">
+            <img src="img/logo_splash.png" alt="">
+        </div>
+        <div class="foot-2">
+            <h1>Quick Link</h1>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">MORE</a></li>
+                <li><a href="#">PLAYER</a></li>
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+        </div>
+        <div class="foot-3">
+            <h1>CONTACT DETAILS</h1>
+            <ul class="list">
+                <li class="footer_section"><i class="fa fa-home"></i>&nbsp;&nbsp; Pulchowk,Lalitpur</li>
+                <li class="footer_section"><i class="fa fa-phone"></i>&nbsp;&nbsp; 9819424090 <br></li>
+                <li class="footer_section"><i class="fa fa-envelope"></i>&nbsp;&nbsp; info@merofantasy.com <br> Send us your query anytime!</li>
+            </ul>
+        </div>
+        &copy;Designed by Sahil Clone oF Mero fantasy
+    </footer>
+
+</body>
+
+</html>
